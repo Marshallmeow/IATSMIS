@@ -1,5 +1,5 @@
 # lab4
-Sofiya
+Yakovlev Alexander
 
 # Исследование метаданных DNS трафика
 

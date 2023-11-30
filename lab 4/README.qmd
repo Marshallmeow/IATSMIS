@@ -1,6 +1,6 @@
 ---
 title: "lab4"
-author: Sofiya
+author: Yakovlev
 format: 
     md:
         output-file: README.md
