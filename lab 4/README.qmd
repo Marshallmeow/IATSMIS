@@ -3,7 +3,11 @@ title: "lab_4"
 format: 
   md:
     output-file: README.md
+<<<<<<< HEAD
 author: "Yakovlev Alex"
+=======
+engine: knitr
+>>>>>>> e4667b2cdf571af96da35141627acdf8ca086aa6
 ---
 
 # Исследование метаданных DNS трафика
