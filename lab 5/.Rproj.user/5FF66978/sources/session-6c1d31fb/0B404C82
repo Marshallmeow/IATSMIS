@@ -1,0 +1,32 @@
+{
+    "id": "0B404C82",
+    "path": "~/IATSMI/lab_5/lab_5.qmd",
+    "project_path": "lab_5.qmd",
+    "type": "quarto_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1702731969992.0,
+    "source_on_save": true,
+    "relative_order": 1,
+    "properties": {
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "1947:2867",
+        "cursorPosition": "67,0",
+        "scrollLine": "0",
+        "docOutlineSize": "83"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1702734731,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1702734731204,
+    "read_only": false,
+    "read_only_alternatives": []
+}

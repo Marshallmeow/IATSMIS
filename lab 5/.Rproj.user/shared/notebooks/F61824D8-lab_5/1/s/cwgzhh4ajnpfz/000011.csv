@@ -1,0 +1,3 @@
+"0","data_1 %>%"
+"0",""
+"0","  filter(grepl(""WPA3"", Privacy)) %>% select(BSSID, ESSID, Privacy)"

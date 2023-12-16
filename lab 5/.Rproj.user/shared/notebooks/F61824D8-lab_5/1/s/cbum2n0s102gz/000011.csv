@@ -1,0 +1,7 @@
+"0","open_wifi <- data_1 %>% "
+"0","  filter(grepl(""OPN"", Privacy)) %>%"
+"0","  select(BSSID, ESSID) %>%"
+"0","  arrange(BSSID) %>%"
+"0","  distinct"
+"0",""
+"0","open_wifi"

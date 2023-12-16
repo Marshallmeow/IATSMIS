@@ -1,0 +1,5 @@
+"0","data_1_with_intervals <- data_2 %>% "
+"0","  mutate(Time.Interval = Last.time.seen - First.time.seen)"
+"0",""
+"0","data_1_with_intervals %>% "
+"0","  arrange(desc(Time.Interval)) %>% mutate(Time.Interval = seconds_to_period(Time.Interval)) %>% select(BSSID, First.time.seen, Last.time.seen, Time.Interval) %>% head"

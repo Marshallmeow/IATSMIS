@@ -1,0 +1,2 @@
+"0",""
+"0","dns <- read.csv('dns.log',sep ='\t')"

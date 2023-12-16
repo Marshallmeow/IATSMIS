@@ -1,0 +1,7 @@
+"0","ip_domain_counts <- data %>%"
+"0","  group_by(ip = tolower(id.orig_h), domain = tolower(query)) %>%"
+"0","  summarise(request_count = n()) %>%"
+"0","  filter(request_count > 1)"
+"2","Error in UseMethod(""group_by"") : 
+  no applicable method for 'group_by' applied to an object of class ""function""
+"

@@ -1,0 +1,12 @@
+"0","data_2 <- data_2 %>% "
+"0","  mutate_at(vars(Station.MAC, BSSID, Probed.ESSIDs),trimws) %>% mutate_at(vars(Station.MAC, BSSID, Probed.ESSIDs),na_if, """")"
+"0",""
+"0","data_2 <- data_2 %>% mutate_at(vars(First.time.seen, Last.time.seen), as.POSIXct, format = ""%Y-%m-%d %H:%M:%S"") %>% mutate_at(vars(Power, X..packets), as.integer) %>% filter(!is.na(BSSID))"
+"2","Предупреждение: [38;5;232mThere were 2 warnings in `mutate()`.
+The first warning was:[39m
+[38;5;232m[36mℹ[38;5;232m In argument: `Power = .Primitive(""as.integer"")(Power)`.[39m
+Caused by warning:
+[33m![39m NAs introduced by coercion
+[38;5;232m[36mℹ[38;5;232m Run ]8;;ide:run:dplyr::last_dplyr_warnings()dplyr::last_dplyr_warnings()]8;; to see the 1 remaining warning.[39m"
+"0","  "
+"0","data_2 %>% head"

@@ -1,0 +1,1 @@
+"0","dns %>% select(query, qtype_name) %>% filter(qtype_name == ""A""|qtype_name == ""AA""| qtype_name == ""AAA"" | qtype_name == ""AAAA"") %>% group_by(query) %>% summarize(total = n()) %>% arrange(desc(total)) %>% head(10)"

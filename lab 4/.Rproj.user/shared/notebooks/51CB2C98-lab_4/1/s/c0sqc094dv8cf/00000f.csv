@@ -1,0 +1,5 @@
+"0","dns %>% filter(qtype_name != ""A"", qtype_name != ""AA"", qtype_name != ""AAA"", qtype_name != ""AAAA"") %>% group_by(uid) %>% summarize(total = n()) %>% nrow() / dns %>% filter(qtype_name == ""A""|qtype_name == ""AA""| qtype_name == ""AAA"" | qtype_name == ""AAAA"") %>% group_by(uid) %>% summarize(total = n()) %>% nrow()"
+"1","[1]"
+"1"," 0.5084645"
+"1","
+"
