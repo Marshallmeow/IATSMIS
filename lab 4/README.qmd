@@ -2,8 +2,8 @@
 title: "lab4"
 author: Yakovlev
 format: 
-    md:
-        output-file: README.md
+  md:
+    output-file: README.md
 engine: knitr
 ---
 
