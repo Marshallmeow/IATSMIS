@@ -1,0 +1,4 @@
+"0","a <- filter(weather, month == 9 , origin == 'JFK', temp != 'NA')"
+"0","b <- summarize(a, delay = mean(temp, na.rm = TRUE ))"
+"0","c <- 5/9*(b-32)"
+"0","c"

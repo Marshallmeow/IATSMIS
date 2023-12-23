@@ -1,0 +1,2 @@
+"0","z <- filter(flights, month == 5 & origin == 'JFK')"
+"0","count(z)"

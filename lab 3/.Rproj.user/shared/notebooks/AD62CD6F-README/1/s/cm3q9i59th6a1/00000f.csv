@@ -1,0 +1,2 @@
+"0","a <- max(nycflights13::airports$lat, na.rm = TRUE)"
+"0","nycflights13::airports %>% select(name,lat) %>% filter(lat==a)"

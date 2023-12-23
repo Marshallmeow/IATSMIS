@@ -1,0 +1,18 @@
+"0","library(dplyr)"
+"2","Предупреждение: пакет ‘dplyr’ был собран под R версии 4.3.2"
+"2","
+Присоединяю пакет: ‘dplyr’
+
+"
+"2","Следующие объекты скрыты от ‘package:stats’:
+
+    filter, lag
+
+"
+"2","Следующие объекты скрыты от ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(nycflights13)"
+"2","Предупреждение: пакет ‘nycflights13’ был собран под R версии 4.3.2"

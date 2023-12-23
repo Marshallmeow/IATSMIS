@@ -1,0 +1,6 @@
+"0","a <- filter(flights, month == 6, carrier != 'NA', month != 'NA')"
+"0","b <- group_by(a, carrier)"
+"0","c <- count(b, carrier)"
+"0","d <- filter(c, n == max(c$n))"
+"0","f <- filter(airlines, carrier == d$carrier)"
+"0","f"

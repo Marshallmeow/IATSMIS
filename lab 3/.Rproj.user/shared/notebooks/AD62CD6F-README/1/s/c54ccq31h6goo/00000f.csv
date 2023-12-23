@@ -1,0 +1,4 @@
+"0","a <- filter(planes, year != 'NA')"
+"0","b <- min(a$year)"
+"0","c <- filter(planes, year == b)"
+"0","select (c, tailnum)"
