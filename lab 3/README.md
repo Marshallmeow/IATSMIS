@@ -1,4 +1,6 @@
-# lab3
+lab3
+================
+Yakovlev Alexander
 
 # Основы обработки данных с помощью R (часть 2)
 
@@ -23,14 +25,16 @@ tidyverse языка R
 library(dplyr)
 ```
 
+    Warning: пакет 'dplyr' был собран под R версии 4.3.2
 
-    Attaching package: 'dplyr'
 
-    The following objects are masked from 'package:stats':
+    Присоединяю пакет: 'dplyr'
+
+    Следующие объекты скрыты от 'package:stats':
 
         filter, lag
 
-    The following objects are masked from 'package:base':
+    Следующие объекты скрыты от 'package:base':
 
         intersect, setdiff, setequal, union
 
@@ -38,9 +42,9 @@ library(dplyr)
 library(nycflights13)
 ```
 
-### 1. Сколько встроенных в пакет nycflights13 датафреймов?
+    Warning: пакет 'nycflights13' был собран под R версии 4.3.2
 
-nycflights13::
+### 1. Сколько встроенных в пакет nycflights13 датафреймов?
 
 Ответ: 5 датафреймов (airlines, airports, flights, planes, weather)
 

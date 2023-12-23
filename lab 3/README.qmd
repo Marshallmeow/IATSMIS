@@ -1,8 +1,9 @@
 ---
 title: "lab3"
+author: "Yakovlev Alexander"
 format: 
   md:
-        output-file: README.md
+    output-file: README.md
 editor: visual
 ---
 
@@ -25,13 +26,11 @@ library(dplyr)
 library(nycflights13)
 ```
 
-### 1.  Сколько встроенных в пакет nycflights13 датафреймов?
-
-nycflights13::
+### 1. Сколько встроенных в пакет nycflights13 датафреймов?
 
 Ответ: 5 датафреймов (airlines, airports, flights, planes, weather)
 
-### 2.  Сколько строк в каждом датафрейме?
+### 2. Сколько строк в каждом датафрейме?
 
 ```{r}
 library('nycflights13')
@@ -43,7 +42,7 @@ nycflights13::planes %>% nrow()
 nycflights13::weather %>% nrow()
 ```
 
-### 3.  Сколько столбцов в каждом датафрейме?
+### 3. Сколько столбцов в каждом датафрейме?
 
 ```{r}
 nycflights13::airlines %>% ncol()
@@ -53,39 +52,39 @@ nycflights13::planes %>% ncol()
 nycflights13::weather %>% ncol()
 ```
 
-### 4.  Как просмотреть примерный вид датафрейма?
+### 4. Как просмотреть примерный вид датафрейма?
 
 ```{r}
 nycflights13::airports %>% glimpse()
 ```
 
-### 5.  Сколько компаний-перевозчиков (carrier) учитывают эти наборы данных (представлено в наборах данных)?
+### 5. Сколько компаний-перевозчиков (carrier) учитывают эти наборы данных (представлено в наборах данных)?
 
 ```{r}
 nycflights13::airlines %>% nrow()
 ```
 
-### 6.  Сколько рейсов принял аэропорт John F Kennedy Intl в мае?
+### 6. Сколько рейсов принял аэропорт John F Kennedy Intl в мае?
 
 ```{r}
 z <- filter(flights, month == 5 & origin == 'JFK')
 count(z)
 ```
 
-### 7.  Какой самый северный аэропорт?
+### 7. Какой самый северный аэропорт?
 
 ```{r}
 a <- max(nycflights13::airports$lat, na.rm = TRUE)
 nycflights13::airports %>% select(name,lat) %>% filter(lat==a)
 ```
 
-### 8.  Какой аэропорт самый высокогорный (находится выше всех над уровнем моря)?
+### 8. Какой аэропорт самый высокогорный (находится выше всех над уровнем моря)?
 
 ```{r}
 nycflights13::airports %>% arrange(desc(alt)) %>% select(name, alt) %>% top_n(1)
 ```
 
-### 9.  Какие бортовые номера у самых старых самолетов?
+### 9. Какие бортовые номера у самых старых самолетов?
 
 ```{r}
 a <- filter(planes, year != 'NA')
